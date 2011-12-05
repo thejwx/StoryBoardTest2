@@ -16,6 +16,8 @@
 		DE9EC4A9148C1565000F3AA4 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9EC4A7148C1565000F3AA4 /* MainStoryboard_iPhone.storyboard */; };
 		DE9EC4AC148C1565000F3AA4 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9EC4AA148C1565000F3AA4 /* MainStoryboard_iPad.storyboard */; };
 		DE9EC4AF148C1565000F3AA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9EC4AE148C1565000F3AA4 /* ViewController.m */; };
+		DE9EC4B7148C16CD000F3AA4 /* Page1.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9EC4B6148C16CD000F3AA4 /* Page1.m */; };
+		DE9EC4BA148C16D9000F3AA4 /* Page2.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9EC4B9148C16D9000F3AA4 /* Page2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +25,20 @@
 		DE9EC495148C1565000F3AA4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DE9EC497148C1565000F3AA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DE9EC499148C1565000F3AA4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DE9EC49D148C1565000F3AA4 /* StoryBoardTest2-Info.plist */ = {isa = PBXFileReference; path = "StoryBoardTest2-Info.plist"; sourceTree = "<group>"; };
+		DE9EC49D148C1565000F3AA4 /* StoryBoardTest2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryBoardTest2-Info.plist"; sourceTree = "<group>"; };
 		DE9EC49F148C1565000F3AA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DE9EC4A1148C1565000F3AA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DE9EC4A3148C1565000F3AA4 /* StoryBoardTest2-Prefix.pch */ = {isa = PBXFileReference; path = "StoryBoardTest2-Prefix.pch"; sourceTree = "<group>"; };
-		DE9EC4A4148C1565000F3AA4 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE9EC4A3148C1565000F3AA4 /* StoryBoardTest2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StoryBoardTest2-Prefix.pch"; sourceTree = "<group>"; };
+		DE9EC4A4148C1565000F3AA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DE9EC4A5148C1565000F3AA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DE9EC4A8148C1565000F3AA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		DE9EC4AB148C1565000F3AA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		DE9EC4AD148C1565000F3AA4 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		DE9EC4AD148C1565000F3AA4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DE9EC4AE148C1565000F3AA4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE9EC4B5148C16CD000F3AA4 /* Page1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page1.h; sourceTree = "<group>"; };
+		DE9EC4B6148C16CD000F3AA4 /* Page1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page1.m; sourceTree = "<group>"; };
+		DE9EC4B8148C16D8000F3AA4 /* Page2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page2.h; sourceTree = "<group>"; };
+		DE9EC4B9148C16D9000F3AA4 /* Page2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +88,11 @@
 				DE9EC4A4148C1565000F3AA4 /* AppDelegate.h */,
 				DE9EC4A5148C1565000F3AA4 /* AppDelegate.m */,
 				DE9EC4A7148C1565000F3AA4 /* MainStoryboard_iPhone.storyboard */,
+				DE9EC4B5148C16CD000F3AA4 /* Page1.h */,
+				DE9EC4B6148C16CD000F3AA4 /* Page1.m */,
 				DE9EC4AA148C1565000F3AA4 /* MainStoryboard_iPad.storyboard */,
+				DE9EC4B8148C16D8000F3AA4 /* Page2.h */,
+				DE9EC4B9148C16D9000F3AA4 /* Page2.m */,
 				DE9EC4AD148C1565000F3AA4 /* ViewController.h */,
 				DE9EC4AE148C1565000F3AA4 /* ViewController.m */,
 				DE9EC49C148C1565000F3AA4 /* Supporting Files */,
@@ -167,6 +177,8 @@
 				DE9EC4A2148C1565000F3AA4 /* main.m in Sources */,
 				DE9EC4A6148C1565000F3AA4 /* AppDelegate.m in Sources */,
 				DE9EC4AF148C1565000F3AA4 /* ViewController.m in Sources */,
+				DE9EC4B7148C16CD000F3AA4 /* Page1.m in Sources */,
+				DE9EC4BA148C16D9000F3AA4 /* Page2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
